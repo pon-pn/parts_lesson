@@ -1,0 +1,20 @@
+// headNav
+.headNav {
+  width: 100%;
+  &__inner {
+    display: flex;
+    padding: 0 20px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__item {
+    font-size: 1.8rem;
+    text-align: center;
+    span {
+      font-size: 1.6rem;
+    }
+  }
+}
